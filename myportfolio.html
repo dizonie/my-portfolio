@@ -1,0 +1,702 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    
+    <div class="header" id="header">
+        <div class="nav container">
+            <a href="#" class="nav-logo">
+                Harold 
+            </a>
+            <div class="nav-menu" id="navMenu">
+                <ul class="nav-list grid">
+                    <li class="nav-item">
+                        <a href="#home" class="nav-link active-link">
+                            <i class='bx bx-home-alt'></i>
+                        </a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a href="#about" class="nav-link">
+                            <i class='bx bx-user' ></i>
+                        </a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a href="#skills" class="nav-link">
+                            <i class='bx bx-book' ></i>
+                        </a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a href="#work" class="nav-link">
+                            <i class='bx bx-briefcase-alt-2' ></i>
+                        </a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a href="#contact" class="nav-link">
+                            <i class='bx bx-message-square-detail'></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+
+            <i class='bx bx-moon change-theme' id="theme-button"></i>
+        </div>      
+    </div>
+
+    <div class="main">
+        
+        <div class="home section" id="home">
+            <div class="home_container container grid">
+                <div class="home_data">
+                    <span class="home_greeting">
+                        Olah! I'm
+                    </span>
+                    <h1 class="home_name">
+                        Harold Dizon
+                    </h1>
+                    <h3 class="home_job">
+                        Software Engineer
+                    </h3>
+                    
+                    <div class="home_buttons">
+                        <a download="" href="myassets/myresume.pdf" class="button button-ghost">
+                            Download Resume
+                        </a>
+                        <a href="#about" class="button">
+                            About Me
+                        </a>
+                    </div>
+                </div>
+
+                <div class="home_handle">
+                    <img src="myassets/images/pictureko.jpg" alt="My Picture" class="home-img">
+                </div>
+
+                <div class="home_social">
+                    <a href="https://www.facebook.com/harold.dizon.0118" target="_blank" class="home_social-link">
+                        <i class='bx bxl-facebook-circle'></i>
+                    </a>
+                    <a href="https://www.linkedin.com/in/harold-dizon-43911035a/" target="_blank" class="home_social-link">
+                        <i class='bx bxl-linkedin-square'></i>
+                    </a>
+                    <a href="#" target="_blank" class="home_social-link">
+                        <i class='bx bxl-github' ></i>
+                    </a>
+                </div>
+
+                <a href="#about" class="home_scroll">
+                    <i class='bx bx-mouse-alt home_scroll-icon'></i>
+                    <span class="home_scroll-name">
+                        Click for more details.
+                    </span>
+                </a>
+            </div>
+        </div>
+
+        <div class="about section" id="about">
+            <span class="section_subtitle">
+                Introduction
+            </span>
+            <h2 class="section_title">
+                About Me
+            </h2>
+
+            <div class="about_container container grid">
+                <img src="myassets/images/picturekoagain.jpg" alt="My Picture" class="about_img">
+
+                <div class="about_data">
+
+                    <div class="about_info">
+
+                        <div class="about_box">
+                            <i class='bx bxs-school about_icon'></i>
+                            <h3 class="about_title">
+                                Education
+                            </h3>
+                            <span class="about_subtitle">
+                                Currently taking Bachelor of Science in Computer Engineering at Cavite State University - CCAT Campus
+                            </span>
+                        </div>
+
+                        <div class="about_box">
+                            <i class='bx bx-podcast about_icon'></i>
+                            <h3 class="about_title">
+                                Seminar Attended
+                            </h3>
+                            <span class="about_subtitle">
+                                DICT 4A - WiTech Batangas ASEAN Data Science Explorers Enablement Session 2024
+                            </span>
+                        </div>
+
+                        <div class="about_box">
+                            <i class='bx bx-target-lock about_icon'></i>
+                            <h3 class="about_title">
+                                Objective
+                            </h3>
+                            <span class="about_subtitle">
+                                "To apply my programming skills, to develop innovative software solutions that solve real-world problems and improve user experiences, while continuously growing as a versatile and impactful software engineer."
+                            </span>
+                        </div>
+
+                    </div>
+
+                    <p class="about_description">
+                        "Aspiring software engineer dedicated to writing clean and efficient code. Excited to tackle real-world challenges and create innovative digital solutions."
+                    </p>
+
+                    <a href="#contact" class="button">
+                        Contact Me
+                    </a>
+
+                </div>
+            </div>
+        </div>
+
+        <div class="skills section" id="skills">
+            <span class="section_subtitle">
+                Programming Skills
+            </span>
+            <h2 class="section_title">
+                Programming Language/Frameworks Knowledge Level
+            </h2>
+
+            <div class="skills_container container grid">
+                <div class="skills_content">
+                    <h3 class="skills_title">
+                        Full-Stack Web Developer
+                    </h3>
+
+                    <div class="skills_box">
+                        <div class="skills_group">
+                            <div class="skills_data">
+                                <i class='bx bxs-badge-check'></i>
+
+                                <div>
+                                    <h3 class="skills_name">
+                                        HTML
+                                    </h3>
+                                    <span class="skills_level">
+                                        Beginner
+                                    </span>
+                                </div>
+                            </div>
+
+                            <div class="skills_data">
+                                <i class='bx bxs-badge-check'></i>
+
+                                <div>
+                                    <h3 class="skills_name">
+                                        CSS
+                                    </h3>
+                                    <span class="skills_level">
+                                        Beginner
+                                    </span>
+                                </div>
+                            </div>
+
+                            <div class="skills_data">
+                                <i class='bx bxs-badge-check'></i>
+
+                                <div>
+                                    <h3 class="skills_name">
+                                        JavaScript
+                                    </h3>
+                                    <span class="skills_level">
+                                        Beginner
+                                    </span>
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <div class="skills_group">
+                            <div class="skills_data">
+                                <i class='bx bxs-badge-check'></i>
+
+                                <div>
+                                    <h3 class="skills_name">
+                                        React
+                                    </h3>
+                                    <span class="skills_level">
+                                        Beginner
+                                    </span>
+                                </div>
+                            </div>
+
+                            <div class="skills_data">
+                                <i class='bx bxs-badge-check'></i>
+
+                                <div>
+                                    <h3 class="skills_name">
+                                        PHP
+                                    </h3>
+                                    <span class="skills_level">
+                                        Beginner
+                                    </span>
+                                </div>
+                            </div>
+
+                            <div class="skills_data">
+                                <i class='bx bxs-badge-check'></i>
+
+                                <div>
+                                    <h3 class="skills_name">
+                                        Node.Js
+                                    </h3>
+                                    <span class="skills_level">
+                                        Beginner
+                                    </span>
+                                </div>
+                            </div>
+                            
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="skills_content">
+                    <h3 class="skills_title">
+                        Software Engineer
+                    </h3>
+
+                    <div class="skills_box">
+                        <div class="skills_group">
+                            <div class="skills_data">
+                                <i class='bx bxs-badge-check'></i>
+
+                                <div>
+                                    <h3 class="skills_name">
+                                        C++
+                                    </h3>
+                                    <span class="skills_level">
+                                        Beginner
+                                    </span>
+                                </div>
+                            </div>
+
+                            <div class="skills_data">
+                                <i class='bx bxs-badge-check'></i>
+
+                                <div>
+                                    <h3 class="skills_name">
+                                        C#
+                                    </h3>
+                                    <span class="skills_level">
+                                        Beginner
+                                    </span>
+                                </div>
+                            </div>
+
+                            <div class="skills_data">
+                                <i class='bx bxs-badge-check'></i>
+
+                                <div>
+                                    <h3 class="skills_name">
+                                        Python
+                                    </h3>
+                                    <span class="skills_level">
+                                        Beginner
+                                    </span>
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <div class="skills_group">
+                            <div class="skills_data">
+                                <i class='bx bxs-badge-check'></i>
+
+                                <div>
+                                    <h3 class="skills_name">
+                                        Flutter
+                                    </h3>
+                                    <span class="skills_level">
+                                        Beginner
+                                    </span>
+                                </div>
+                            </div>
+
+                            <div class="skills_data">
+                                <i class='bx bxs-badge-check'></i>
+
+                                <div>
+                                    <h3 class="skills_name">
+                                        Visual Basic
+                                    </h3>
+                                    <span class="skills_level">
+                                        Beginner
+                                    </span>
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="services section">
+            <span class="section_subtitle">
+                My Services
+            </span>
+            <h2 class="section_title">
+                What I Offer
+            </h2>
+
+            <div class="services_container container grid">
+                <div class="services_card">
+                    <h3 class="services_title">
+                        Website <br> Application
+                    </h3>
+                    <span class="services_button">
+                        See More <i class='bx bx-right-arrow-alt services_icon' ></i>
+                    </span>
+
+                    <div class="services_modal">
+                        <div class="services_modal-content">
+                            <i class='bx bx-x services_modal-close'></i>
+                            <h3 class="services_modal-title">
+                                Website Application
+                            </h3>
+                            <p class="services_modal-description">
+                                A web service that helps businesses easily manage their inventory. You can add, update, or remove products quickly and efficiently.
+                            </p>
+
+                            <ul class="services_modal-list">
+                                <li class="services_modal-item">
+                                    <i class='bx bx-check services_modal-icon'></i>
+                                    <p class="services_modal-info">
+                                        Easy-to-use interface for managing inventory online.
+                                    </p>
+                                </li>
+
+                                <li class="services_modal-item">
+                                    <i class='bx bx-check services_modal-icon'></i>
+                                    <p class="services_modal-info">
+                                        Features for adding, updating, and removing products effortlessly.
+                                    </p>
+                                </li>
+
+                                <li class="services_modal-item">
+                                    <i class='bx bx-check services_modal-icon'></i>
+                                    <p class="services_modal-info">
+                                        Accessible from any device with an internet connection.
+                                    </p>
+                                </li>
+
+                                <li class="services_modal-item">
+                                    <i class='bx bx-check services_modal-icon'></i>
+                                    <p class="services_modal-info">
+                                        Real-time synchronization of inventory data across devices.
+                                    </p>
+                                </li>
+
+                                <li class="services_modal-item">
+                                    <i class='bx bx-check services_modal-icon'></i>
+                                    <p class="services_modal-info">
+                                        Secure user authentication to protect sensitive information.
+                                    </p>
+                                </li>
+                                
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="services_card">
+                    <h3 class="services_title">
+                        Desktop <br> Application
+                    </h3>
+                    <span class="services_button">
+                        See More <i class='bx bx-right-arrow-alt services_icon' ></i>
+                    </span>
+
+                    <div class="services_modal">
+                        <div class="services_modal-content">
+                            <i class='bx bx-x services_modal-close'></i>
+                            <h3 class="services_modal-title">
+                                Desktop Application
+                            </h3>
+                            <p class="services_modal-description">
+                                A reliable desktop application designed to help businesses manage their inventory with ease. Easily add, update, and remove products to keep your data accurate and organized.
+                            </p>
+
+                            <ul class="services_modal-list">
+                                <li class="services_modal-item">
+                                    <i class='bx bx-check services_modal-icon'></i>
+                                    <p class="services_modal-info">
+                                        Reliable offline functionality for inventory management.
+                                    </p>
+                                </li>
+
+                                <li class="services_modal-item">
+                                    <i class='bx bx-check services_modal-icon'></i>
+                                    <p class="services_modal-info">
+                                        Comprehensive reporting tools to track inventory trends.
+                                    </p>
+                                </li>
+
+                                <li class="services_modal-item">
+                                    <i class='bx bx-check services_modal-icon'></i>
+                                    <p class="services_modal-info">
+                                        User-friendly layout tailored for desktop screens.
+                                </li>
+
+                                <li class="services_modal-item">
+                                    <i class='bx bx-check services_modal-icon'></i>
+                                    <p class="services_modal-info">
+                                        Bulk import and export of product data via spreadsheets.
+                                    </p>
+                                </li>
+
+                                <li class="services_modal-item">
+                                    <i class='bx bx-check services_modal-icon'></i>
+                                    <p class="services_modal-info">
+                                        High performance for handling large datasets efficiently.
+                                    </p>
+                                </li>
+                                
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="services_card">
+                    <h3 class="services_title">
+                        Mobile <br> Application
+                    </h3>
+                    <span class="services_button">
+                        See More <i class='bx bx-right-arrow-alt services_icon' ></i>
+                    </span>
+
+                    <div class="services_modal">
+                        <div class="services_modal-content">
+                            <i class='bx bx-x services_modal-close'></i>
+                            <h3 class="services_modal-title">
+                                Mobile Application
+                            </h3>
+                            <p class="services_modal-description">
+                                A convenient mobile app that lets businesses manage their inventory on the go. Add, update, or remove products anytime, anywhere, right from your phone.
+                            </p>
+
+                            <ul class="services_modal-list">
+                                <li class="services_modal-item">
+                                    <i class='bx bx-check services_modal-icon'></i>
+                                    <p class="services_modal-info">
+                                        Manage inventory anytime, anywhere using your smartphone.
+                                    </p>
+                                </li>
+
+                                <li class="services_modal-item">
+                                    <i class='bx bx-check services_modal-icon'></i>
+                                    <p class="services_modal-info">
+                                        Intuitive touch interface for quick and easy product updates.
+                                    </p>
+                                </li>
+
+                                <li class="services_modal-item">
+                                    <i class='bx bx-check services_modal-icon'></i>
+                                    <p class="services_modal-info">
+                                        Push notifications for inventory alerts and updates.
+                                    </p>
+                                </li>
+
+                                <li class="services_modal-item">
+                                    <i class='bx bx-check services_modal-icon'></i>
+                                    <p class="services_modal-info">
+                                        Barcode scanning for seamless product entry and tracking.
+                                    </p>
+                                </li>
+
+                                <li class="services_modal-item">
+                                    <i class='bx bx-check services_modal-icon'></i>
+                                    <p class="services_modal-info">
+                                        Cloud-based storage ensuring data is always backed up.
+                                    </p>
+                                </li>
+                                
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="work section" id="work">
+            <span class="section_subtitle">
+                Portfolio
+            </span>
+            <h2 class="section_title">
+                My Projects
+            </h2>
+            
+            <div class="work_filters">
+                <span class="work_item active-work" data-filter='all'>
+                All
+                </span>
+
+                <span class="work_item" data-filter='.web'>
+                Web
+                </span>
+
+                <span class="work_item" data-filter='.desktop'>
+                Desktop
+                </span>
+
+            </div>
+
+            <div class="work_container container grid">
+                <div class="work_card mix web">
+                    <img src="myassets/images/webapp.png" alt="" class="work_img">
+
+                    <h3 class="work_title">
+                        Web Application
+                    </h3>
+
+                </div>
+
+                <div class="work_card mix desktop">
+                    <img src="myassets/images/desktopapp.png" alt="" class="work_img">
+
+                    <h3 class="work_title">
+                        Desktop Application
+                    </h3>
+
+                </div>
+            </div>
+
+        </div>
+
+        <div class="contact section" id="contact">
+            <span class="section_subtitle">
+                Reach me out 
+            </span>
+            <h2 class="section_title">
+                Contact Me
+            </h2>
+
+            <div class="contact_container container grid">
+                <div class="contact_content">
+                    <h3 class="contact_title">
+                        Communicate with me
+                    </h3>
+
+                    <div class="contact_info">
+                        <div class="contact_card">
+                            <i class='bx bx-mail-send contact_card-icon'></i>
+                            <h3 class="contact_card-title">
+                                Email
+                            </h3>
+                            <span class="contact_card-data">
+                                dizonieharold@gmail.com
+                            </span>
+    
+                            <a href="https://gmail.com" target="_blank" class="contact_button">
+                               Send me an email <i class='bx bx-right-arrow-alt contact_button-icon'></i>
+                            </a>
+                        </div>
+
+                        <div class="contact_card">
+                            <i class='bx bx-phone contact_card-icon'></i>
+                            <h3 class="contact_card-title">
+                                Contact Number
+                            </h3>
+                            <span class="contact_card-data">
+                                (+63)9561269328
+                            </span>
+    
+                            <a href="#contact" target="_blank" class="contact_button">
+                               Send me a text <i class='bx bx-right-arrow-alt contact_button-icon'></i>
+                            </a>
+                        </div>
+
+                        <div class="contact_card">
+                            <i class='bx bxl-facebook contact_card-icon'></i>
+                            <h3 class="contact_card-title">
+                                Facebook
+                            </h3>
+                            <span class="contact_card-data">
+                                Harold Dizon
+                            </span>
+    
+                            <a href="https://www.facebook.com/harold.dizon.0118" target="_blank" class="contact_button">
+                               Send me a private message <i class='bx bx-right-arrow-alt contact_button-icon'></i>
+                            </a>
+                        </div>
+                        
+                    </div>
+                </div>
+
+                <div class="contact_content">
+                    <h3 class="contact_title">
+                        Provide an overview of your project
+                    </h3>
+
+                    <form action="submit" class="contact_form">
+                        <div class="contact_form-div">
+                            <label for="" class="contact_form-tag">
+                                Name
+                            </label>
+                            <input type="text" placeholder="Please type your name:" class="contact_form-input">
+                        </div>
+
+                        <div class="contact_form-div">
+                            <label for="" class="contact_form-tag">
+                                Email
+                            </label>
+                            <input type="email" placeholder="Please input your email:" class="contact_form-input">
+                        </div>
+
+                        <div class="contact_form-div contact_form-area">
+                            <label for="" class="contact_form-tag">
+                                Project
+                            </label>
+                            <textarea name="" id="" cols="30" rows="10" placeholder="Write your project" class="contact_form-input"></textarea>
+                        </div>
+
+                        <button class="button">Send Message</button>
+                    </form>
+                </div>
+
+
+            </div>
+        </div>
+
+    </div>
+
+  
+    <div class="footer">
+        <div class="footer_container container">
+            <h1 class="footer_title">
+                Harold
+            </h1>
+
+            <span class="footer_copy">
+                &#169; Harold Dizon. All Rights Reserved
+            </span>
+        </div>
+    </div>
+
+
+    
+
+  
+    <script src="scrollreveal.min.js"></script>
+    <script src="mixitup.min.js"></script>
+    <script src="main.js"></script>
+    
+</body>
+
+</html>
